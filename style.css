@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(244, 239, 239);
+    padding: 0px 100px 0px 40px;
+}
+
+header{
+    display: flex; 
+    justify-content: space-between;
+
+    
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-left: 20px;
+    cursor: pointer;   
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out 0.2s;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    
+}
+
+li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgb(38, 77, 112);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;   
+}
+
+li:hover{
+    color: rgb(19, 214, 26);
+    transition: color 0.2s ease-in-out 0.2s;
+}
+
+.flech{
+    width: 30px;
+    height: 15px;
+}
+
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+.h1-p-btn{
+    display: block;
+    gap: 2px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 2px;
+    line-height: 1.7;   
+}
+
+h1 span{
+    color: rgb(38, 77, 112); 
+}
+
+h1 span:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;  
+}
+
+.p1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(113, 113, 106);
+    font-size: small;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(38, 77, 112);
+    color: white;
+    margin-top: 20px;
+
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out 0.2s;
+    cursor: pointer;   
+}
+
+.btn:active{
+    background-color: rgb(176, 20, 51);
+}
+
+.img-section{
+    width: 550px;
+    height: 300px;
+}
+
+.img-section:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out 0.2s;
+    cursor: pointer; 
+}
+
+footer{
+    display: flex; 
+    align-items: center;
+    gap: 30%;
+    margin-top: 15%;
+}
+
+.p2{
+    padding-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(113, 113, 106);
+    font-size: larger;
+}
+
+.imgs{
+    display: flex;
+    width: 60px;
+    height: 20px;
+    gap: 50px;
+}
+
+.img-footer:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out 0.2s;
+    cursor: pointer; 
+}
+
